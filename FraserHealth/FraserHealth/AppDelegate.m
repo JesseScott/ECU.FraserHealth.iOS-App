@@ -25,7 +25,7 @@
 
     UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
     MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    //controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							
