@@ -8,14 +8,14 @@
 
 #import "LoginViewController.h"
 
-@interface LoginViewController ()
-
-@end
 
 @implementation LoginViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+// Properties
+
+@synthesize buttonPopoverController;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -23,16 +23,31 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)setPasscode:(id)sender {
+    NSLog(@"setPasscode");
+    
+    PasscodeViewController* passcode = [[PasscodeViewController alloc] init];
+    self.buttonPopoverController = [[UIPopoverController alloc] initWithContentViewController:passcode];
+    self.buttonPopoverController.delegate = self;
+    
+    CGRect frame = ((UIButton*)sender).frame;
+    [self.buttonPopoverController presentPopoverFromRect:frame
+                                                  inView:self.view
+                                permittedArrowDirections:UIPopoverArrowDirectionAny
+                                              animated:YES];
+   
+}
+
 
 @end

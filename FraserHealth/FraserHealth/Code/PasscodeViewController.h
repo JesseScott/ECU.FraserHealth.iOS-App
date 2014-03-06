@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PasscodeViewController : UIViewController
+@interface PasscodeViewController : UIViewController {
+    
+}
+
+
+// Methods
+
+- (IBAction)cancel:(id)sender;
+
 
 @end

@@ -8,13 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController {
+#import "PasscodeViewController.h"
+
+@interface LoginViewController : UIViewController <UIPopoverControllerDelegate> {
     
 }
 
 // Properties
 
 @property (nonatomic, strong) UIPopoverController* buttonPopoverController;
+
+// Methods
+
+- (IBAction)setPasscode:(id)sender;
 
 
 @end
