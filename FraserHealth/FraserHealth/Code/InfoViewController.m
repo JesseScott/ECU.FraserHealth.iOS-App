@@ -8,25 +8,18 @@
 
 #import "InfoViewController.h"
 
-@interface InfoViewController ()
 
-@end
 
 @implementation InfoViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
-- (void)viewDidLoad
-{
+
+- (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // Set BG Colour
+    self.view.backgroundColor = [UIColor colorWithRed:242.0/255.0 green:241.0/255/0 blue:225.0/255.0 alpha:255.0/255.0];
+    
 }
 
 - (void)didReceiveMemoryWarning
