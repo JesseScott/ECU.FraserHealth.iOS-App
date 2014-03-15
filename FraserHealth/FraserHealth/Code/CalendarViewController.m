@@ -9,8 +9,10 @@
 #import "CalendarViewController.h"
 
 
-
 @implementation CalendarViewController
+
+// Properties
+@synthesize titleBar;
 
 
 - (void)viewDidLoad {
@@ -18,6 +20,9 @@
     
     // Set BG Colour
     self.view.backgroundColor = [UIColor colorWithRed:242.0/255.0 green:241.0/255/0 blue:225.0/255.0 alpha:255.0/255.0];
+    
+    // Set Title Label
+    self.titleBar.backgroundColor = [UIColor colorWithRed:139.0/255.0 green:203.0/255/0 blue:181.0/255.0 alpha:255.0/255.0];
 
 }
 

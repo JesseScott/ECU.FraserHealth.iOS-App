@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ConnectViewController : UIViewController
+@interface ConnectViewController : UIViewController {
+    
+}
+
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *titleBar;
+
+
+
 
 @end
