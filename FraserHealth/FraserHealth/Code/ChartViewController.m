@@ -46,4 +46,9 @@
 }
 */
 
+- (IBAction)toggleMedications:(id)sender {
+}
+
+- (IBAction)toggleAllergies:(id)sender {
+}
 @end

@@ -16,7 +16,12 @@
 
 // Properties
 @property (weak, nonatomic) IBOutlet UILabel *titleBar;
+@property (weak, nonatomic) IBOutlet UIImageView *toggleImage;
 
+// Methods
+
+- (IBAction)toggleMedications:(id)sender;
+- (IBAction)toggleAllergies:(id)sender;
 
 
 @end
