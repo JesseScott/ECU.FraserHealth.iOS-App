@@ -10,7 +10,12 @@
 
 @interface SettingsViewController : UIViewController {
     
+    UIFont *titleFont;
     
 }
+
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *titleBar;
+
 
 @end

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InfoViewController : UIViewController
+@interface InfoViewController : UIViewController {
+    
+    UIFont *titleFont;
+    
+}
+
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *titleBar;
+
+
 
 @end

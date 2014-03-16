@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MessagesViewController : UIViewController
+@interface MessagesViewController : UIViewController {
+    
+    UIFont *titleFont;
+    
+}
+
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *titleBar;
+
+
 
 @end

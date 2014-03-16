@@ -10,6 +10,8 @@
 
 @interface ConnectViewController : UIViewController {
     
+    UIFont *titleFont;
+    
 }
 
 // Properties

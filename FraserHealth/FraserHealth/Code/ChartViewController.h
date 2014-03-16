@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ChartViewController : UIViewController
+@interface ChartViewController : UIViewController {
+    
+    UIFont *titleFont;
+    
+}
+
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *titleBar;
+
+
 
 @end

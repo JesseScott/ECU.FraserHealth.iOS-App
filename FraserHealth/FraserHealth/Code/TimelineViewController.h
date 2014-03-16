@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TimelineViewController : UIViewController
+@interface TimelineViewController : UIViewController {
+    
+    UIFont *titleFont;
+    
+}
+
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *titleBar;
+
+
 
 @end
