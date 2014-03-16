@@ -8,19 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-#import "PasscodeViewController.h"
-
-@interface LoginViewController : UIViewController <UIPopoverControllerDelegate> {
+@interface LoginViewController : UIViewController <UITextFieldDelegate> {
+    
+    UIFont *mainTitleFont, *subTitleFont;
     
 }
 
 // Properties
+@property (weak, nonatomic) IBOutlet UILabel *mainTitle;
+@property (weak, nonatomic) IBOutlet UILabel *subTitle;
 
-@property (nonatomic, strong) UIPopoverController* buttonPopoverController;
+
 
 // Methods
-
-- (IBAction)setPasscode:(id)sender;
+- (BOOL)textFieldShouldReturn:(UITextField *)textField;
 
 
 @end

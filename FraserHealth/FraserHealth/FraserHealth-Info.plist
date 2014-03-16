@@ -6,6 +6,7 @@
 	<array>
 		<string>MetaOT-Normal.otf</string>
 		<string>MetaOT-Medium.otf</string>
+		<string>MetaOT-BoldItalic.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

@@ -12,11 +12,28 @@
 
 @implementation PasscodeViewController
 
+// Properties
+
+@synthesize mainTitle, subTitle;
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     // Set BG Colour
     self.view.backgroundColor = [UIColor colorWithRed:242.0/255.0 green:241.0/255/0 blue:225.0/255.0 alpha:255.0/255.0];
+    
+    // Set Fonts
+    mainTitleFont = [UIFont fontWithName:@"MetaOT-BoldItalic" size:48.0];
+    subTitleFont = [UIFont fontWithName:@"MetaOT-BoldItalic" size:24.0];
+    
+    // Set Labels
+    mainTitle.textColor = [UIColor whiteColor];
+    mainTitle.font = mainTitleFont;
+    
+    subTitle.textColor = [UIColor colorWithRed:126.0/255.0 green:193.0/255/0 blue:191.0/255.0 alpha:255.0/255.0];
+    subTitle.font = subTitleFont;
     
 }
 

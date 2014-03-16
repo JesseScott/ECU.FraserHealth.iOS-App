@@ -10,8 +10,13 @@
 
 @interface PasscodeViewController : UIViewController {
     
+    UIFont *mainTitleFont, *subTitleFont;
+    
 }
 
+// Properties
+@property (weak, nonatomic) IBOutlet UILabel *mainTitle;
+@property (weak, nonatomic) IBOutlet UILabel *subTitle;
 
 // Methods
 

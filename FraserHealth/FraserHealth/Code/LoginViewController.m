@@ -13,7 +13,7 @@
 
 // Properties
 
-@synthesize buttonPopoverController;
+@synthesize mainTitle, subTitle;
 
 
 
@@ -23,6 +23,17 @@
     // Set BG Colour
     self.view.backgroundColor = [UIColor colorWithRed:242.0/255.0 green:241.0/255/0 blue:225.0/255.0 alpha:255.0/255.0];
     
+    // Set Fonts
+    mainTitleFont = [UIFont fontWithName:@"MetaOT-BoldItalic" size:48.0];
+    subTitleFont = [UIFont fontWithName:@"MetaOT-BoldItalic" size:24.0];
+    
+    // Set Labels
+    mainTitle.textColor = [UIColor whiteColor];
+    mainTitle.font = mainTitleFont;
+    
+    subTitle.textColor = [UIColor colorWithRed:126.0/255.0 green:193.0/255/0 blue:191.0/255.0 alpha:255.0/255.0];
+    subTitle.font = subTitleFont;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,20 +41,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark TEXTFIELD
 
-- (IBAction)setPasscode:(id)sender {
-    NSLog(@"setPasscode");
-    
-    PasscodeViewController* passcode = [[PasscodeViewController alloc] init];
-    self.buttonPopoverController = [[UIPopoverController alloc] initWithContentViewController:passcode];
-    self.buttonPopoverController.delegate = self;
-    
-    CGRect frame = ((UIButton*)sender).frame;
-    [self.buttonPopoverController presentPopoverFromRect:frame
-                                                  inView:self.view
-                                permittedArrowDirections:UIPopoverArrowDirectionAny
-                                              animated:YES];
-   
+// Hide Keyboard When Done Key Is Pressed
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    NSLog(@"TSR");
+    [textField resignFirstResponder];
+    return YES;
 }
 
 
