@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.h
+//  SettingsDetailViewController.h
 //  FraserHealth
 //
 //  Created by Jesse Scott on 2014-03-15.
@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingsViewController : UIViewController {
+@interface SettingsDetailViewController : UIViewController {
     
     
 }
+
+
+// Methods
+- (IBAction)backToSettings:(id)sender;
+
 
 @end
