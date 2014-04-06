@@ -19,3 +19,6 @@ DerivedData
 
 #CocoaPods
 Pods
+
+#Assets
+/FraserHealth/Fraserhealth/Assets/Movie/*
