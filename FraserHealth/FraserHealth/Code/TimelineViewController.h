@@ -17,6 +17,9 @@
 // Properties
 @property (weak, nonatomic) IBOutlet UILabel *titleBar;
 
+// Methods
+- (void) makeGoalVisible;
+- (void) makeNoteVisible;
 
 
 @end

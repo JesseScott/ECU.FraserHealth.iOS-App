@@ -7,16 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MPMoviePlayerController.h>
+
 
 @interface InfoViewController : UIViewController {
     
     UIFont *titleFont;
+    MPMoviePlayerController *moviePlayer;
+
     
 }
 
 // Properties
 @property (weak, nonatomic) IBOutlet UILabel *titleBar;
+@property (weak, nonatomic) IBOutlet UIImageView *videoView;
+@property (weak, nonatomic) IBOutlet UIButton *videoPlayButton;
 
-
+// Methods
+- (IBAction)playVideo:(id)sender;
 
 @end

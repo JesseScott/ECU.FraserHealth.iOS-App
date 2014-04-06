@@ -20,32 +20,40 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"VDL");
+    
     // Set BG Colour
-    self.view.backgroundColor = [UIColor colorWithRed:242.0/255.0 green:241.0/255/0 blue:225.0/255.0 alpha:255.0/255.0];
+    self.view.backgroundColor = [UIColor colorWithRed:(242.0/255.0) green:(241.0/255.0) blue:(225.0/255.0) alpha:(255.0/255.0)];
     
     // Set Title Label
     titleFont = [UIFont fontWithName:@"MetaOT-Medium" size:24.0];
     self.titleBar.font = titleFont;
     self.titleBar.textColor = [UIColor whiteColor];
-    self.titleBar.backgroundColor = [UIColor colorWithRed:139.0/255.0 green:203.0/255/0 blue:181.0/255.0 alpha:255.0/255.0];
+    self.titleBar.backgroundColor = [UIColor colorWithRed:(126.0/255.0) green:(193.0/255.0) blue:(191.0/255.0) alpha:(255.0/255.0)];
+    
     
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) makeGoalVisible {
+    NSLog(@"GOAL");
+    
+    UIImageView *goal = [[UIImageView alloc] initWithFrame:CGRectMake(906, 442, 61, 93)];
+    goal.image = [UIImage imageNamed:@"goalIndicator@2x.png"];
+    
+    [self.view addSubview:goal];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void) makeNoteVisible {
+    NSLog(@"NOTE");
+    
+    UIImageView *note = [[UIImageView alloc] initWithFrame:CGRectMake(389, 442, 61, 93)];
+    note.image = [UIImage imageNamed:@"noteIndicator@2x.png"];
+    
+    [self.view addSubview:note];
+    
 }
-*/
+
+
 
 @end

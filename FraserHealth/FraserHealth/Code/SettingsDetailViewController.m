@@ -20,13 +20,13 @@
     [super viewDidLoad];
     
     // Set BG Colour
-    self.view.backgroundColor = [UIColor colorWithRed:242.0/255.0 green:241.0/255/0 blue:225.0/255.0 alpha:255.0/255.0];
+    self.view.backgroundColor = [UIColor colorWithRed:(242.0/255.0) green:(241.0/255.0) blue:(225.0/255.0) alpha:(255.0/255.0)];
     
     // Set Title Label
     titleFont = [UIFont fontWithName:@"MetaOT-Medium" size:24.0];
     self.titleBar.font = titleFont;
     self.titleBar.textColor = [UIColor whiteColor];
-    self.titleBar.backgroundColor = [UIColor colorWithRed:139.0/255.0 green:203.0/255/0 blue:181.0/255.0 alpha:255.0/255.0];
+    self.titleBar.backgroundColor = [UIColor colorWithRed:(126.0/255.0) green:(193.0/255.0) blue:(191.0/255.0) alpha:(255.0/255.0)];
     
 }
 

@@ -10,13 +10,12 @@
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate> {
     
-    UIFont *mainTitleFont, *subTitleFont;
+
     
 }
 
 // Properties
-@property (weak, nonatomic) IBOutlet UILabel *mainTitle;
-@property (weak, nonatomic) IBOutlet UILabel *subTitle;
+
 
 
 

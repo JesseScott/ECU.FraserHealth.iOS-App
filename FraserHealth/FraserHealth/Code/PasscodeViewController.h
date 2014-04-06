@@ -10,17 +10,22 @@
 
 @interface PasscodeViewController : UIViewController {
     
-    UIFont *mainTitleFont, *subTitleFont;
+    NSInteger numberOfButtonsPressed;
     
 }
 
 // Properties
-@property (weak, nonatomic) IBOutlet UILabel *mainTitle;
-@property (weak, nonatomic) IBOutlet UILabel *subTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *dot1;
+@property (weak, nonatomic) IBOutlet UIImageView *dot2;
+@property (weak, nonatomic) IBOutlet UIImageView *dot3;
+@property (weak, nonatomic) IBOutlet UIImageView *dot4;
+
+
 
 // Methods
 
 - (IBAction)cancel:(id)sender;
+- (IBAction)buttonPressed:(id)sender;
 
 
 @end
