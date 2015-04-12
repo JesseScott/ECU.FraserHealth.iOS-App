@@ -1612,7 +1612,7 @@
 				ORGANIZATIONNAME = ECUAD;
 				TargetAttributes = {
 					2DE53DC618BACADC005A19F8 = {
-						DevelopmentTeam = 729G259YQ5;
+						DevelopmentTeam = 9A2VX5D8G3;
 					};
 					2DE53DEF18BACADF005A19F8 = {
 						TestTargetID = 2DE53DC618BACADC005A19F8;
@@ -2322,6 +2322,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2340,7 +2341,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				PROVISIONING_PROFILE = "3e06dab2-6686-4deb-bba5-23b26c7ee219";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -2362,6 +2363,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2373,7 +2375,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				PROVISIONING_PROFILE = "3e06dab2-6686-4deb-bba5-23b26c7ee219";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -2385,13 +2387,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FraserHealth/Patients First-Prefix.pch";
 				INFOPLIST_FILE = "FraserHealth/Patients First-Info.plist";
 				PRODUCT_NAME = "Patients First";
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2401,13 +2403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FraserHealth/Patients First-Prefix.pch";
 				INFOPLIST_FILE = "FraserHealth/Patients First-Info.plist";
 				PRODUCT_NAME = "Patients First";
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
