@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="hwm-tn-9Um">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="hwm-tn-9Um">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller - Splash-->
+        <!--Splash-->
         <scene sceneID="4TP-eQ-GcT">
             <objects>
                 <viewController title="Splash" id="Yna-P6-fLc" customClass="LoginViewController" sceneMemberID="viewController">
@@ -56,7 +56,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -65,7 +64,7 @@
             </objects>
             <point key="canvasLocation" x="-2941" y="-627"/>
         </scene>
-        <!--Passcode View Controller - Passcode-->
+        <!--Passcode-->
         <scene sceneID="t1b-BO-nbd">
             <objects>
                 <viewController title="Passcode" id="TpZ-fU-uLb" customClass="PasscodeViewController" sceneMemberID="viewController">
@@ -209,7 +208,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -224,7 +222,7 @@
             </objects>
             <point key="canvasLocation" x="-1775" y="-626"/>
         </scene>
-        <!--Onboard View Controller - Onboard-->
+        <!--Onboard-->
         <scene sceneID="FWn-GT-NwG">
             <objects>
                 <viewController storyboardIdentifier="Onboard" title="Onboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NT4-pF-JG6" customClass="OnboardViewController" sceneMemberID="viewController">
@@ -256,7 +254,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -281,7 +278,7 @@
             </objects>
             <point key="canvasLocation" x="-1775" y="322"/>
         </scene>
-        <!--Connect View Controller - Connect-->
+        <!--Connect-->
         <scene sceneID="eZg-K7-6ji">
             <objects>
                 <viewController storyboardIdentifier="Connect" title="Connect" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hwm-tn-9Um" customClass="ConnectViewController" sceneMemberID="viewController">
@@ -557,7 +554,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -588,7 +584,7 @@
             </objects>
             <point key="canvasLocation" x="89" y="-4113"/>
         </scene>
-        <!--Calendar View Controller - Calendar-->
+        <!--Calendar-->
         <scene sceneID="s3R-Ov-mbn">
             <objects>
                 <viewController storyboardIdentifier="Calendar" title="Calendar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xEc-fA-SK7" customClass="CalendarViewController" sceneMemberID="viewController">
@@ -724,7 +720,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -736,7 +731,7 @@
             </objects>
             <point key="canvasLocation" x="57" y="-747"/>
         </scene>
-        <!--Messages View Controller - Messages-->
+        <!--Messages-->
         <scene sceneID="I0Y-uY-pPQ">
             <objects>
                 <viewController storyboardIdentifier="Messages" title="Messages" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Xuc-ku-t0b" customClass="MessagesViewController" sceneMemberID="viewController">
@@ -893,7 +888,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -910,7 +904,7 @@
             </objects>
             <point key="canvasLocation" x="89" y="2659"/>
         </scene>
-        <!--Timeline Checkin View Controller - Timeline Checkin-->
+        <!--Timeline Checkin-->
         <scene sceneID="g3x-rD-ERF">
             <objects>
                 <viewController storyboardIdentifier="Timeline Checkin" title="Timeline Checkin" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fyR-wS-zwq" customClass="TimelineCheckinViewController" sceneMemberID="viewController">
@@ -1078,7 +1072,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1104,7 +1097,7 @@
             </objects>
             <point key="canvasLocation" x="89" y="1565"/>
         </scene>
-        <!--Chart View Controller - Chart-->
+        <!--Chart-->
         <scene sceneID="PtN-rB-rnE">
             <objects>
                 <viewController storyboardIdentifier="Chart Medications" title="Chart" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QNZ-2l-r3d" customClass="ChartViewController" sceneMemberID="viewController">
@@ -1260,7 +1253,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1273,7 +1265,7 @@
             </objects>
             <point key="canvasLocation" x="177" y="4345"/>
         </scene>
-        <!--View Controller - Medicine Detail 1-->
+        <!--Medicine Detail 1-->
         <scene sceneID="trT-Pp-HyB">
             <objects>
                 <viewController storyboardIdentifier="Medicine Detail 1" title="Medicine Detail 1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="s0b-MV-TS0" sceneMemberID="viewController">
@@ -1305,17 +1297,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="1024" height="768"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoC-Y3-yZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1530" y="3542"/>
         </scene>
-        <!--Info View Controller - Info-->
+        <!--Info-->
         <scene sceneID="ai0-es-nyL">
             <objects>
                 <viewController storyboardIdentifier="Info" title="Info" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PHN-kR-gAN" customClass="InfoViewController" sceneMemberID="viewController">
@@ -1487,7 +1477,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1501,7 +1490,7 @@
             </objects>
             <point key="canvasLocation" x="105" y="5663"/>
         </scene>
-        <!--Settings View Controller - Settings-->
+        <!--Settings-->
         <scene sceneID="PEQ-ka-sPu">
             <objects>
                 <viewController storyboardIdentifier="Settings" title="Settings" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4oC-FT-cyq" customClass="SettingsViewController" sceneMemberID="viewController">
@@ -1758,7 +1747,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1770,7 +1758,7 @@
             </objects>
             <point key="canvasLocation" x="-26" y="7145"/>
         </scene>
-        <!--Settings Detail View Controller - Settings Detail-->
+        <!--Settings Detail-->
         <scene sceneID="Pk2-k5-pzm">
             <objects>
                 <viewController storyboardIdentifier="Settings Detail" title="Settings Detail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="odx-CI-Nj7" customClass="SettingsDetailViewController" sceneMemberID="viewController">
@@ -1945,7 +1933,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1957,7 +1944,7 @@
             </objects>
             <point key="canvasLocation" x="1168" y="7145"/>
         </scene>
-        <!--View Controller - Infection Control-->
+        <!--Infection Control-->
         <scene sceneID="ooD-HX-IMd">
             <objects>
                 <viewController storyboardIdentifier="Infection Control" title="Infection Control" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QNW-7E-GfK" sceneMemberID="viewController">
@@ -1975,7 +1962,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -1985,7 +1971,7 @@
             </objects>
             <point key="canvasLocation" x="1534" y="5697"/>
         </scene>
-        <!--View Controller - Preventing Falls-->
+        <!--Preventing Falls-->
         <scene sceneID="7Ch-8f-OyQ">
             <objects>
                 <viewController storyboardIdentifier="Preventing Falls" title="Preventing Falls" useStoryboardIdentifierAsRestorationIdentifier="YES" id="10K-A0-cez" sceneMemberID="viewController">
@@ -2003,7 +1989,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -2013,7 +1998,7 @@
             </objects>
             <point key="canvasLocation" x="2422" y="5697"/>
         </scene>
-        <!--View Controller - Preventing Medication Errors-->
+        <!--Preventing Medication Errors-->
         <scene sceneID="mAt-dv-cqD">
             <objects>
                 <viewController storyboardIdentifier="Preventing Medication Errors" title="Preventing Medication Errors" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gmi-lS-Ckx" sceneMemberID="viewController">
@@ -2031,7 +2016,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -2049,7 +2033,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <sections>
                             <tableViewSection headerTitle="Section-1" id="DIm-HL-NwK">
                                 <cells>
@@ -2102,7 +2085,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@FraserHealth  18h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Heu-Pe-xXP">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@Patients First  18h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Heu-Pe-xXP">
                                                     <rect key="frame" x="215" y="55" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -2138,7 +2121,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@FraserHealth  20h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqL-lx-qHY">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@Patients First  20h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqL-lx-qHY">
                                                     <rect key="frame" x="215" y="50" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -2173,7 +2156,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@FraserHealth  20h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyz-kr-UMB">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@Patients First  20h" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyz-kr-UMB">
                                                     <rect key="frame" x="215" y="50" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -2208,7 +2191,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@FraserHealth  1d" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVn-ic-2li">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@Patients First  1d" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVn-ic-2li">
                                                     <rect key="frame" x="215" y="50" width="280" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -2240,7 +2223,7 @@
             </objects>
             <point key="canvasLocation" x="4202" y="5697"/>
         </scene>
-        <!--View Controller - Appointment-->
+        <!--Appointment-->
         <scene sceneID="xnG-pz-s8V">
             <objects>
                 <viewController storyboardIdentifier="Appointment" title="Appointment" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vtv-V4-BdK" sceneMemberID="viewController">
@@ -2292,17 +2275,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="829" height="755"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UAI-59-yun" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1559" y="-583"/>
         </scene>
-        <!--View Controller - Event-->
+        <!--Event-->
         <scene sceneID="3Mo-Su-4aY">
             <objects>
                 <viewController storyboardIdentifier="Event" title="Event" useStoryboardIdentifierAsRestorationIdentifier="YES" id="42l-Pc-q7a" sceneMemberID="viewController">
@@ -2352,17 +2333,15 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="829" height="755"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYe-YJ-TTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1559" y="421"/>
         </scene>
-        <!--View Controller - Caregiver-->
+        <!--Caregiver-->
         <scene sceneID="xD3-rn-Bao">
             <objects>
                 <viewController storyboardIdentifier="Caregiver" title="Caregiver" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xLn-84-LWA" sceneMemberID="viewController">
@@ -2403,17 +2382,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="829" height="755"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4q3-PO-Wxa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2987" y="-971"/>
         </scene>
-        <!--View Controller - AppointmentMap-->
+        <!--AppointmentMap-->
         <scene sceneID="HK7-Gj-NmB">
             <objects>
                 <viewController storyboardIdentifier="AppointmentMap" title="AppointmentMap" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kiW-WV-f8R" sceneMemberID="viewController">
@@ -2445,17 +2422,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="829" height="755"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HH7-Lj-Ri6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2987" y="-117"/>
         </scene>
-        <!--Chart View Controller - Chart Allergies-->
+        <!--Chart Allergies-->
         <scene sceneID="h2s-qp-IE9">
             <objects>
                 <viewController storyboardIdentifier="Chart Allergies" title="Chart Allergies" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L4c-ZZ-RKs" customClass="ChartViewController" sceneMemberID="viewController">
@@ -2593,7 +2568,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -2606,7 +2580,7 @@
             </objects>
             <point key="canvasLocation" x="1559" y="4653"/>
         </scene>
-        <!--View Controller - Add Allergy-->
+        <!--Add Allergy-->
         <scene sceneID="asG-aD-z5M">
             <objects>
                 <viewController storyboardIdentifier="Add Allergy" title="Add Allergy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pFk-Sb-G2d" sceneMemberID="viewController">
@@ -2624,7 +2598,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -2634,7 +2607,7 @@
             </objects>
             <point key="canvasLocation" x="2773" y="4847"/>
         </scene>
-        <!--Map View Controller - Info Map-->
+        <!--Info Map-->
         <scene sceneID="l82-I8-FgO">
             <objects>
                 <viewController storyboardIdentifier="Info Map" title="Info Map" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vRj-bo-YZG" customClass="MapViewController" sceneMemberID="viewController">
@@ -2720,7 +2693,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
@@ -2737,7 +2709,7 @@
             </objects>
             <point key="canvasLocation" x="5327" y="5697"/>
         </scene>
-        <!--View Controller - Appointment-->
+        <!--Appointment-->
         <scene sceneID="rsG-XV-vOm">
             <objects>
                 <viewController storyboardIdentifier="New Appt" title="Appointment" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YPK-dP-03K" sceneMemberID="viewController">
@@ -2769,17 +2741,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="829" height="755"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2BC-91-Pqo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1559" y="-1551"/>
         </scene>
-        <!--Timeline View Controller - Timeline Main-->
+        <!--Timeline Main-->
         <scene sceneID="sN8-TI-VML">
             <objects>
                 <viewController storyboardIdentifier="Timeline Main" title="Timeline Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="u4l-fy-efC" customClass="TimelineViewController" sceneMemberID="viewController">
@@ -2969,7 +2939,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -2981,7 +2950,7 @@
             </objects>
             <point key="canvasLocation" x="1391" y="1565"/>
         </scene>
-        <!--View Controller - XRay Popover-->
+        <!--XRay Popover-->
         <scene sceneID="wBy-g4-WEb">
             <objects>
                 <viewController storyboardIdentifier="XRay Popover" title="XRay Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uhL-2o-h7G" sceneMemberID="viewController">
@@ -2999,7 +2968,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3009,7 +2977,7 @@
             </objects>
             <point key="canvasLocation" x="2668" y="1844"/>
         </scene>
-        <!--View Controller - Note Popover-->
+        <!--Note Popover-->
         <scene sceneID="2kY-0X-fn6">
             <objects>
                 <viewController storyboardIdentifier="Note Popover" title="Note Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FAC-oS-RHV" sceneMemberID="viewController">
@@ -3037,7 +3005,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3047,7 +3014,7 @@
             </objects>
             <point key="canvasLocation" x="2668" y="1518"/>
         </scene>
-        <!--View Controller - MRI Popover-->
+        <!--MRI Popover-->
         <scene sceneID="3Nr-IM-lWV">
             <objects>
                 <viewController storyboardIdentifier="MRI Popover" title="MRI Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LoZ-nW-Fom" sceneMemberID="viewController">
@@ -3075,7 +3042,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3085,7 +3051,7 @@
             </objects>
             <point key="canvasLocation" x="2668" y="2140"/>
         </scene>
-        <!--View Controller - Claire Popover-->
+        <!--Claire Popover-->
         <scene sceneID="AUD-A6-vO5">
             <objects>
                 <viewController storyboardIdentifier="Claire Popover" title="Claire Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AJl-XQ-BgE" sceneMemberID="viewController">
@@ -3103,7 +3069,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3113,7 +3078,7 @@
             </objects>
             <point key="canvasLocation" x="2987" y="1664"/>
         </scene>
-        <!--Calendar Medication View Controller - Medicine 1-->
+        <!--Medicine 1-->
         <scene sceneID="wVb-mg-KKm">
             <objects>
                 <viewController storyboardIdentifier="Medicine 1" title="Medicine 1" modalPresentationStyle="pageSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yMK-CL-dYj" customClass="CalendarMedicationViewController" sceneMemberID="viewController">
@@ -3165,12 +3130,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="829" height="755"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="829" height="755"/>
                     <connections>
                         <outlet property="foregroundImage" destination="G5A-PS-Ovm" id="Gjp-Ov-vIQ"/>
                         <segue destination="xEc-fA-SK7" kind="modal" identifier="doneMedication" modalTransitionStyle="crossDissolve" id="M4M-wK-sWz"/>
@@ -3180,7 +3143,7 @@
             </objects>
             <point key="canvasLocation" x="2987" y="-1941"/>
         </scene>
-        <!--View Controller - Sara Popover-->
+        <!--Sara Popover-->
         <scene sceneID="n38-Qm-knZ">
             <objects>
                 <viewController storyboardIdentifier="Sara Popover" title="Sara Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yuc-dQ-eks" sceneMemberID="viewController">
@@ -3198,7 +3161,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3208,7 +3170,7 @@
             </objects>
             <point key="canvasLocation" x="2987" y="1495"/>
         </scene>
-        <!--View Controller - Medicine Detail 2-->
+        <!--Medicine Detail 2-->
         <scene sceneID="r7I-l6-5Ov">
             <objects>
                 <viewController storyboardIdentifier="Medicine Detail 2" title="Medicine Detail 2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qkn-2Y-A4U" sceneMemberID="viewController">
@@ -3240,17 +3202,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="1024" height="768"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBI-D6-r9B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2635" y="3542"/>
         </scene>
-        <!--View Controller - Doctor Popover-->
+        <!--Doctor Popover-->
         <scene sceneID="o37-kB-dqD">
             <objects>
                 <viewController storyboardIdentifier="Doctor Popover" title="Doctor Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IjS-Ev-d8w" sceneMemberID="viewController">
@@ -3268,7 +3228,6 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3278,7 +3237,7 @@
             </objects>
             <point key="canvasLocation" x="3362" y="1698"/>
         </scene>
-        <!--Leave Feedback View Controller - Leave Feedback Popover-->
+        <!--Leave Feedback Popover-->
         <scene sceneID="jZP-LA-v3n">
             <objects>
                 <viewController storyboardIdentifier="Leave Feedback Popover" title="Leave Feedback Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KyB-9I-u4t" customClass="LeaveFeedbackViewController" sceneMemberID="viewController">
@@ -3378,7 +3337,6 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -3396,7 +3354,7 @@
             </objects>
             <point key="canvasLocation" x="3756" y="1570"/>
         </scene>
-        <!--Timeline Set Goal View Controller - Set Goal Popover-->
+        <!--Set Goal Popover-->
         <scene sceneID="P1w-ln-AGl">
             <objects>
                 <viewController storyboardIdentifier="Set Goal Popover" title="Set Goal Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RUP-9Y-pd0" customClass="TimelineSetGoalViewController" sceneMemberID="viewController">
@@ -3454,11 +3412,9 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <segue destination="u4l-fy-efC" kind="modal" identifier="setGoal" modalTransitionStyle="crossDissolve" id="quy-fL-hNw"/>
                     </connections>
@@ -3467,7 +3423,7 @@
             </objects>
             <point key="canvasLocation" x="4880" y="1565"/>
         </scene>
-        <!--Timeline Moving View Controller - Make Note Popover-->
+        <!--Make Note Popover-->
         <scene sceneID="upY-9v-1gU">
             <objects>
                 <viewController storyboardIdentifier="Make Note Popover" title="Make Note Popover" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8hF-hB-Yca" customClass="TimelineMovingViewController" sceneMemberID="viewController">
@@ -3527,7 +3483,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -3538,7 +3493,7 @@
             </objects>
             <point key="canvasLocation" x="6000" y="1565"/>
         </scene>
-        <!--View Controller - Allied Profile 1-->
+        <!--Allied Profile 1-->
         <scene sceneID="s3Z-19-Wti">
             <objects>
                 <viewController storyboardIdentifier="Allied Profile 1" title="Allied Profile 1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xG6-gP-vpR" sceneMemberID="viewController">
@@ -3565,7 +3520,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3575,7 +3529,7 @@
             </objects>
             <point key="canvasLocation" x="1407" y="-4749"/>
         </scene>
-        <!--View Controller - Allied Profile 2-->
+        <!--Allied Profile 2-->
         <scene sceneID="DjV-ne-fTH">
             <objects>
                 <viewController storyboardIdentifier="Allied Profile 2" title="Allied Profile 2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pOi-cV-lgo" sceneMemberID="viewController">
@@ -3602,7 +3556,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3612,7 +3565,7 @@
             </objects>
             <point key="canvasLocation" x="2095" y="-4749"/>
         </scene>
-        <!--View Controller - Allied Profile 3-->
+        <!--Allied Profile 3-->
         <scene sceneID="OA8-D9-QRK">
             <objects>
                 <viewController storyboardIdentifier="Allied Profile 3" title="Allied Profile 3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7ss-yI-hlO" sceneMemberID="viewController">
@@ -3639,7 +3592,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3649,7 +3601,7 @@
             </objects>
             <point key="canvasLocation" x="2788" y="-4749"/>
         </scene>
-        <!--View Controller - Connect Friend New-->
+        <!--Connect Friend New-->
         <scene sceneID="eLi-aK-vuE">
             <objects>
                 <viewController storyboardIdentifier="Connect Friend New" title="Connect Friend New" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jEt-N5-5BP" sceneMemberID="viewController">
@@ -3694,7 +3646,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3704,7 +3655,7 @@
             </objects>
             <point key="canvasLocation" x="1407" y="-4082"/>
         </scene>
-        <!--View Controller - Connect Doctor 1-->
+        <!--Connect Doctor 1-->
         <scene sceneID="vZe-Eg-T12">
             <objects>
                 <viewController storyboardIdentifier="Connect Doctor 1" title="Connect Doctor 1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="A1Z-KB-hWs" sceneMemberID="viewController">
@@ -3731,7 +3682,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3741,7 +3691,7 @@
             </objects>
             <point key="canvasLocation" x="1404" y="-3440"/>
         </scene>
-        <!--View Controller - Connect Nurse 1-->
+        <!--Connect Nurse 1-->
         <scene sceneID="4fP-Fy-m0B">
             <objects>
                 <viewController storyboardIdentifier="Connect Nurse 1" title="Connect Nurse 1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pbi-kF-lWD" sceneMemberID="viewController">
@@ -3768,7 +3718,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3778,7 +3727,7 @@
             </objects>
             <point key="canvasLocation" x="1404" y="-2760"/>
         </scene>
-        <!--View Controller - Connect Doctor 2-->
+        <!--Connect Doctor 2-->
         <scene sceneID="lUT-tK-iUk">
             <objects>
                 <viewController storyboardIdentifier="Connect Doctor 2" title="Connect Doctor 2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fIm-lE-7bV" sceneMemberID="viewController">
@@ -3805,7 +3754,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -3815,7 +3763,7 @@
             </objects>
             <point key="canvasLocation" x="2088" y="-3440"/>
         </scene>
-        <!--View Controller - Connect Nurse 2-->
+        <!--Connect Nurse 2-->
         <scene sceneID="Xxw-xf-BdY">
             <objects>
                 <viewController storyboardIdentifier="Connect Nurse 2" title="Connect Nurse 2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7Ee-ec-ETq" sceneMemberID="viewController">
@@ -3842,7 +3790,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

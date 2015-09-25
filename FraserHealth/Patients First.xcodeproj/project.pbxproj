@@ -960,22 +960,22 @@
 		2DBCBCF118E3D256005D1E46 /* SarahPopover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SarahPopover@2x.png"; sourceTree = "<group>"; };
 		2DD417D318E9620100A11487 /* goalIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goalIndicator@2x.png"; sourceTree = "<group>"; };
 		2DD417D418E9620100A11487 /* noteIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noteIndicator@2x.png"; sourceTree = "<group>"; };
-		2DE53DC718BACADD005A19F8 /* FraserHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FraserHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE53DC718BACADD005A19F8 /* Patients First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patients First.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE53DCA18BACADD005A19F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DE53DCC18BACADD005A19F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2DE53DCE18BACADD005A19F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DE53DD018BACADD005A19F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2DE53DD418BACADD005A19F8 /* FraserHealth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FraserHealth-Info.plist"; sourceTree = "<group>"; };
+		2DE53DD418BACADD005A19F8 /* Patients First-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Patients First-Info.plist"; sourceTree = "<group>"; };
 		2DE53DD618BACADD005A19F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DE53DD818BACADE005A19F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2DE53DDA18BACADE005A19F8 /* FraserHealth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FraserHealth-Prefix.pch"; sourceTree = "<group>"; };
+		2DE53DDA18BACADE005A19F8 /* Patients First-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Patients First-Prefix.pch"; sourceTree = "<group>"; };
 		2DE53DDB18BACADE005A19F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DE53DDC18BACADE005A19F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2DE53DDF18BACADE005A19F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DE53DEA18BACADF005A19F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2DE53DF018BACADF005A19F8 /* FraserHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FraserHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE53DF018BACADF005A19F8 /* Patients FirstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Patients FirstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE53DF118BACADF005A19F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2DE53DFA18BACADF005A19F8 /* FraserHealthTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FraserHealthTests-Info.plist"; sourceTree = "<group>"; };
+		2DE53DFA18BACADF005A19F8 /* Patients FirstTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Patients FirstTests-Info.plist"; sourceTree = "<group>"; };
 		2DE53DFC18BACADF005A19F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DE53DFE18BACADF005A19F8 /* FraserHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FraserHealthTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1501,8 +1501,8 @@
 		2DE53DC818BACADD005A19F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DE53DC718BACADD005A19F8 /* FraserHealth.app */,
-				2DE53DF018BACADF005A19F8 /* FraserHealthTests.xctest */,
+				2DE53DC718BACADD005A19F8 /* Patients First.app */,
+				2DE53DF018BACADF005A19F8 /* Patients FirstTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1538,10 +1538,10 @@
 				2DE53DEA18BACADF005A19F8 /* Images.xcassets */,
 				2DE53DDB18BACADE005A19F8 /* AppDelegate.h */,
 				2DE53DDC18BACADE005A19F8 /* AppDelegate.m */,
-				2DE53DD418BACADD005A19F8 /* FraserHealth-Info.plist */,
+				2DE53DD418BACADD005A19F8 /* Patients First-Info.plist */,
 				2DE53DD518BACADD005A19F8 /* InfoPlist.strings */,
 				2DE53DD818BACADE005A19F8 /* main.m */,
-				2DE53DDA18BACADE005A19F8 /* FraserHealth-Prefix.pch */,
+				2DE53DDA18BACADE005A19F8 /* Patients First-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1558,7 +1558,7 @@
 		2DE53DF918BACADF005A19F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2DE53DFA18BACADF005A19F8 /* FraserHealthTests-Info.plist */,
+				2DE53DFA18BACADF005A19F8 /* Patients FirstTests-Info.plist */,
 				2DE53DFB18BACADF005A19F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -1567,9 +1567,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DE53DC618BACADC005A19F8 /* FraserHealth */ = {
+		2DE53DC618BACADC005A19F8 /* Patients First */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE53E0218BACADF005A19F8 /* Build configuration list for PBXNativeTarget "FraserHealth" */;
+			buildConfigurationList = 2DE53E0218BACADF005A19F8 /* Build configuration list for PBXNativeTarget "Patients First" */;
 			buildPhases = (
 				2DE53DC318BACADC005A19F8 /* Sources */,
 				2DE53DC418BACADC005A19F8 /* Frameworks */,
@@ -1579,14 +1579,14 @@
 			);
 			dependencies = (
 			);
-			name = FraserHealth;
+			name = "Patients First";
 			productName = FraserHealth;
-			productReference = 2DE53DC718BACADD005A19F8 /* FraserHealth.app */;
+			productReference = 2DE53DC718BACADD005A19F8 /* Patients First.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DE53DEF18BACADF005A19F8 /* FraserHealthTests */ = {
+		2DE53DEF18BACADF005A19F8 /* Patients FirstTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE53E0518BACADF005A19F8 /* Build configuration list for PBXNativeTarget "FraserHealthTests" */;
+			buildConfigurationList = 2DE53E0518BACADF005A19F8 /* Build configuration list for PBXNativeTarget "Patients FirstTests" */;
 			buildPhases = (
 				2DE53DEC18BACADF005A19F8 /* Sources */,
 				2DE53DED18BACADF005A19F8 /* Frameworks */,
@@ -1597,9 +1597,9 @@
 			dependencies = (
 				2DE53DF718BACADF005A19F8 /* PBXTargetDependency */,
 			);
-			name = FraserHealthTests;
+			name = "Patients FirstTests";
 			productName = FraserHealthTests;
-			productReference = 2DE53DF018BACADF005A19F8 /* FraserHealthTests.xctest */;
+			productReference = 2DE53DF018BACADF005A19F8 /* Patients FirstTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1612,14 +1612,14 @@
 				ORGANIZATIONNAME = ECUAD;
 				TargetAttributes = {
 					2DE53DC618BACADC005A19F8 = {
-						DevelopmentTeam = 729G259YQ5;
+						DevelopmentTeam = 9A2VX5D8G3;
 					};
 					2DE53DEF18BACADF005A19F8 = {
 						TestTargetID = 2DE53DC618BACADC005A19F8;
 					};
 				};
 			};
-			buildConfigurationList = 2DE53DC218BACADC005A19F8 /* Build configuration list for PBXProject "FraserHealth" */;
+			buildConfigurationList = 2DE53DC218BACADC005A19F8 /* Build configuration list for PBXProject "Patients First" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1632,8 +1632,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DE53DC618BACADC005A19F8 /* FraserHealth */,
-				2DE53DEF18BACADF005A19F8 /* FraserHealthTests */,
+				2DE53DC618BACADC005A19F8 /* Patients First */,
+				2DE53DEF18BACADF005A19F8 /* Patients FirstTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2273,7 +2273,7 @@
 /* Begin PBXTargetDependency section */
 		2DE53DF718BACADF005A19F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DE53DC618BACADC005A19F8 /* FraserHealth */;
+			target = 2DE53DC618BACADC005A19F8 /* Patients First */;
 			targetProxy = 2DE53DF618BACADF005A19F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2322,7 +2322,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2340,7 +2341,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				PROVISIONING_PROFILE = "3500cd84-9ce4-411c-a3b3-624cee14a405";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -2362,7 +2363,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2373,7 +2375,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				PROVISIONING_PROFILE = "3500cd84-9ce4-411c-a3b3-624cee14a405";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -2385,13 +2387,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FraserHealth/FraserHealth-Prefix.pch";
-				INFOPLIST_FILE = "FraserHealth/FraserHealth-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				GCC_PREFIX_HEADER = "FraserHealth/Patients First-Prefix.pch";
+				INFOPLIST_FILE = "FraserHealth/Patients First-Info.plist";
+				PRODUCT_NAME = "Patients First";
+				PROVISIONING_PROFILE = "3500cd84-9ce4-411c-a3b3-624cee14a405";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2401,13 +2403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jesse Scott (V5Y72NLQH6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FraserHealth/FraserHealth-Prefix.pch";
-				INFOPLIST_FILE = "FraserHealth/FraserHealth-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "580DD520-8194-45CD-B9B1-787DA962C22C";
+				GCC_PREFIX_HEADER = "FraserHealth/Patients First-Prefix.pch";
+				INFOPLIST_FILE = "FraserHealth/Patients First-Info.plist";
+				PRODUCT_NAME = "Patients First";
+				PROVISIONING_PROFILE = "3500cd84-9ce4-411c-a3b3-624cee14a405";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2427,8 +2429,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FraserHealthTests/FraserHealthTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FraserHealthTests/Patients FirstTests-Info.plist";
+				PRODUCT_NAME = "Patients FirstTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2445,8 +2447,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FraserHealth/FraserHealth-Prefix.pch";
-				INFOPLIST_FILE = "FraserHealthTests/FraserHealthTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FraserHealthTests/Patients FirstTests-Info.plist";
+				PRODUCT_NAME = "Patients FirstTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2455,7 +2457,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DE53DC218BACADC005A19F8 /* Build configuration list for PBXProject "FraserHealth" */ = {
+		2DE53DC218BACADC005A19F8 /* Build configuration list for PBXProject "Patients First" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DE53E0018BACADF005A19F8 /* Debug */,
@@ -2464,7 +2466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DE53E0218BACADF005A19F8 /* Build configuration list for PBXNativeTarget "FraserHealth" */ = {
+		2DE53E0218BACADF005A19F8 /* Build configuration list for PBXNativeTarget "Patients First" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DE53E0318BACADF005A19F8 /* Debug */,
@@ -2473,7 +2475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DE53E0518BACADF005A19F8 /* Build configuration list for PBXNativeTarget "FraserHealthTests" */ = {
+		2DE53E0518BACADF005A19F8 /* Build configuration list for PBXNativeTarget "Patients FirstTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DE53E0618BACADF005A19F8 /* Debug */,
